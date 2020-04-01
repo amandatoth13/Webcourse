@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Condensed:300,300i,400,400i,700,700i&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300 !important;
+    margin:0px;
+    text-shadow: 2px 2px 10px black;
+}
+
+body h1 {
+    font-weight: 300;
+    margin: 20px 30px;
+
+}
+
+#site-title {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+#main-header {
+    border-bottom: 2px solid rgb(161, 149, 149);
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+}
+
+
+#top-stories {
+  
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+article:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 7);
+    background: silver;
+
+
+}
+
+article {
+    max-width: 301px;
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 2px 2px 6px black;
+    transition: box-shadow 500ms, background 1s;
+    transition-delay: 5s;
+}
+
+article img {
+    max-width:100%;
+    height: 100px;
+    
+}
+
+
+
+a:hover {
+    color: purple !important;
+}
+
+.article-image {
+    height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    background-position:center !important ;
+}
+
+.more-link {
+    font-style: italic;
+}
+
+.bolded-link {
+    font-weight: 900;
+}
+
+.more-link.bolded-link {
+    color: hotpink;
+}
+
+.my-input {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.my-input:focus {
+    background: rgb(148, 225, 245);
+    color: hotpink;
+    outline: none;
+    border: 1px solid black;
+}
+
+article:active {
+    opacity: .4;
+}
+
+.article-image {
+height: 200px;
+width: 200px;
+border-radius: 100%;
+}
+
+
+.my-text {
+    height: 600px;
+    max-height: 200px;
+    overflow: :scroll;
+    
+
